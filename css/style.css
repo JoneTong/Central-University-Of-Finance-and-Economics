@@ -1,0 +1,380 @@
+*{
+    /*font-family: "微软雅黑";*/
+    font-family: "Consolas", "Menlo", "Courier", monospace,"微软雅黑";
+}
+*>a:hover{
+    text-decoration: none;
+}
+
+.list-group-item{
+    padding:0;
+    border-color:transparent;
+}
+.lines{
+    width:100%;
+    height:3px;
+    margin-bottom: 10px;
+}
+.new .lines{
+    background: #058cf6;
+}
+.college .lines{
+    background: #cb5b80;
+}
+.enrol .lines{
+    background: #00b2a9;
+}
+.enrol .list-group>.list-group-item{
+     border-bottom: 1px dashed #00b2a9;
+     box-sizing: border-box;
+     margin-bottom: 1px;
+ }
+.college .list-group>.list-group-item{
+
+    margin-bottom:3px;
+}
+.new h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.enrol h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.college h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.new h3 a{
+    color:#0674cb;
+    line-height: 60px;
+    font-size: 20px;
+}
+.college h3 a{
+    color:#cb5b80;
+    line-height: 60px;
+    font-size: 20px;
+}
+.enrol h3 a{
+    color:#00b2a9;
+    line-height: 60px;
+    font-size: 20px;
+}
+.new .thumbnail img{
+    height:320px;
+}
+.college .data .year{
+    color:#fff;
+}
+
+.morenew a{
+    color:#058cf6;
+    float: right;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+.morecol a{
+    color:#cb5b80;
+    float: right;
+    margin-top: -10px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+.moreent a{
+    color:#00b2a9;
+    float: right;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+.morenew img{
+    margin-left: 5px;
+}
+.morecol img{
+    margin-left: 5px;
+}
+.moreent img{
+    margin-left: 5px;
+}
+.new .thumbnail{
+    border:0;
+    position:relative;
+    padding:0;
+ }
+.new .thumbnail img{
+    /*position: absolute;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*z-index: 1;*/
+}
+.cj-enrol{
+    width:100%;
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index: 2;
+    color:#fff;
+    line-height: 20px;
+    background: rgba(4,84,147,0.8);
+}
+.cj-enrol p{
+    line-height: 10px;
+}
+.college .data{
+    width:55px;
+    height:52px;
+    background:url(../images/data.png) no-repeat;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+
+}
+.college .data span{
+    display: block;
+    line-height: 28px;
+}
+
+.list-group-item p{
+    height:52px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*white-space: wrap;*/
+}
+.enrol .list-group-item p a{
+    color:#333
+}
+.college .list-group-item p a{
+    color: #888888;
+}
+.enrol .data{
+    width:26px;
+    height:26px;
+    background:url(../images/data2.png) no-repeat;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:15px;
+    margin-bottom:15px;
+    float: left;
+
+}
+.activity{
+    margin-top: 15px;
+
+}
+.activity img{
+    width:100%;
+    border-radius: 10px;
+    height:78px;
+    margin-bottom:15px;
+}
+.banout{
+    width:100%;
+    height:365px;
+    margin-top: 12px;
+}
+.banin{
+    position: relative;
+    height:340px
+}
+.ban{
+width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 66;
+    overflow: hidden;
+}
+.ban img{
+    height:100%;
+
+}
+
+.vide{
+    height:315px
+}
+.vide p{
+    position: absolute;
+    height:50px;
+    background: rgba(142,150,204,0.8);
+    bottom:20px;
+    left: 0;
+    width:94%;
+    margin-right: 15px;
+    margin-left:15px;
+    padding-left:20px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+
+}
+.banout img{
+    width: 100%;
+}
+.banbtn{
+    position: absolute;
+    right:0;
+    width:190px;
+    bottom:12px;
+    z-index: 88;
+}
+
+.cite{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-right:15px;
+}
+.tz{
+    width: 100%;
+
+}
+.tablist img{
+    width: 100%;
+}
+.tz .tab{
+    display: inline-block;
+    width:49%;
+    height:54px;
+    background: #f8f8f8;
+    text-align: center;
+    line-height: 54px;
+    font-size: 20px;
+    color:#888888;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.tz .tabclick{
+  color:#096ab8;
+    border-bottom: 2px solid #096ab8;
+    font-size: 24px;
+}
+.tabcon{
+    margin-top: 1px;
+    background-color: #f8f8f8;
+}
+.tabcon .tablist{
+   display: none;
+    border:0;
+}
+.tabcon .thumbnail{
+    background-color: transparent;
+}
+.tabcon .list-group-item{
+    background-color: transparent;
+}
+.tabcon .tablistshow{
+    display: none;
+}
+.tzhi .list-group{
+    margin-bottom:0px;
+}
+.tabcon .thumbnail .tzhi{
+    padding:6px 9px;
+}
+.tzhi .list-group-item{
+    line-height: 32px;
+    font-size: 14px;
+}
+.tzhi .list-group-item a{
+    color: #333;
+}
+.tzhi .list-group-item div{
+    width: 7px;
+    height: 12px;
+    background: url(../images/jiantou2.png) no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+    color: #0061b0;
+}
+.tzhi .list-group-item span{
+    position: absolute;
+    right: 0;
+    color: #c1c0c3;
+    font-style: italic;
+}
+.study img{
+    width: 100%;
+}
+.study .thumbnail{
+    border:0;
+    padding:0;
+    margin-bottom: 12px;
+    /*position: relative;*/
+
+
+}
+.study .col-sm-6{
+    padding-left:6px;
+    padding-right:6px;
+}
+.remarkout{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+    box-sizing: border-box;
+    padding:0 6px;
+
+}
+.remark{
+    width: 100%;
+    height:40px;
+    background: rgba(0,0,0,0.5);
+    line-height: 40px;
+
+}
+.remark .leftr{
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.remark .rightr{
+    display: block;
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+}
+.frend .friendlist{
+    padding:0px;
+   display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack:justify ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #fbfbfb;
+    line-height: 24px;
+    margin-left: -15px;
+    margin-right: -15px;
+
+}
+.frend .row h3{
+    display: block;
+    float: left;
+    color:#0674cb;
+}
+.frend .row a{
+    display: block;
+    float: right;
+    margin-right: 15px;
+    margin-top:25px;
+}
+.frend .row a img{
+    margin-left: 5px;
+}
+.frend li{
+    list-style: none;
+    display: inline-block;
+    margin-right:15px;
+}
+
+.frend .frilist a{
+color:#333
+}

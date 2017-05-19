@@ -1,0 +1,108 @@
+body,ul,li,a,input{
+	padding:0;
+	margin:0;
+	list-style: none;
+	border:0;
+	text-decoration: none;
+	font-family: "Microsoft YaHei";
+}
+/*body,html{
+	height:100%;
+}*/
+.loginbox{
+	width:100%;
+	height:100%;
+	background: url(../images/back.jpg)no-repeat;
+	background-size: 100% 100%;
+	/*opacity: .8;*/
+}
+.login{
+	width:750px;
+	height:100%;
+	margin:0 auto;
+	/*border:1px solid #000;*/
+	overflow: hidden;
+}
+.logo{
+	width:310px;
+	height:200px;
+	text-align: center;
+	margin:50px auto 0;
+}
+
+.message{
+	width:500px;
+	height:70px;
+	margin:35px auto 0;
+	text-align: center;
+	line-height: 100px;
+	font-size: 24px;
+	color: #000;
+	font-weight: bolder;
+}
+.search{
+	width:100%;
+	height:75px;
+	/*border:1px solid #000;*/
+	margin-top: 30px;
+	line-height: 75px;
+	margin-bottom:135px;
+}
+.search input{
+	height:38px;
+	width:140px;
+	border:1px solid #037ee7;
+	float: left;
+	padding-left: 10px;
+}
+.search input:nth-of-type(4){
+	width:100px;
+	background-color: #FE9805;
+	text-align: center;
+	color:#fff;
+	cursor: pointer;
+	height:40px;
+	border:1px solid #ffba00
+}
+.number{
+	width:100px;
+	height:38px;
+	line-height: 38px;
+	border:1px solid #000;
+	float: left;
+}
+.number img{ height: 38px; width: 100px;}
+.bottom{
+	display: block;
+	margin-top: 135px;
+	/*border:1px solid #000;*/
+	text-align: center;
+	color: #fff;
+	margin-bottom:10px;
+}
+.bottom span:nth-of-type(2){
+	color: #4080EC;
+	padding-top: 20px;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

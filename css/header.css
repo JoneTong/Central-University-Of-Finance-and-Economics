@@ -1,0 +1,242 @@
+*{
+    font-family: "微软雅黑";
+}
+*>a:hover{
+    text-decoration: none;
+}
+
+.cj-logo{
+    width:100%;
+    height:70px;
+    background: url(../images/logoback.jpg) no-repeat ;
+    background-size:100% 100%;
+
+}
+.container-fluid.logoout{
+    padding-left:0;
+    padding-right:0;
+}
+.cj-logo .navbar-brand img{
+    height:40px;
+}
+.navbar-defau.icon-bar{
+    background:#fff;
+}
+.down-d{
+    font-size: 16px;
+    font-weight: bold;
+}
+.down-d ul li{
+    border-bottom: 1px solid #1C73B5;
+
+}
+.navbar-default .navbar-nav>.down-d>a:hover{
+    color:#fff;
+}
+.down-d>.navhide>li>a{
+    line-height:32px;
+}
+.down-d>.navhide>li>a:hover{
+    background: #005FA8;
+}
+@media screen and (min-width:768px){
+    .cj-logo{
+        height:90px;
+    }
+    .cj-logo .navbar-brand img{
+        height:60px;
+    }
+
+    .cj-nav{width: 100%}
+    .down-d{width:14%}
+}
+@media screen and (min-width:992px){
+    .cj-logo{
+        height:150px;
+
+    }
+    .cj-logo .navbar-brand img{
+        height:77px;
+        margin-top: 15px;
+    }
+    .down-d{width: 12.5%}
+}
+@media screen and (min-width:1200px){
+    .cj-logo{
+        height:150px;
+
+    }
+    .cj-logo .navbar-brand img{
+        height:77px;
+        margin-top: 15px;
+    }
+    .down-d{width: 10%}
+}
+@media screen and (max-width:767px){
+    .navbar-header{
+        position:absolute;
+        top:20px;
+        right:35px;
+    }
+}
+.navhide{
+    background-color:#0062AC;
+    margin-left: -1px;
+    border-top: 1px solid #0062ac;
+
+}
+.navhide li a{
+    color:#fff;
+}
+.navbar-default .navbar-toggle.but-cj{
+    border-color: transparent;
+}
+@media screen and (max-width:767px){
+    .down-d{
+        background-color: #0062AC;
+        border-bottom:1px solid #1C73B5;
+
+    }
+    .navbar-default .navbar-nav>.down-d>a,
+    .navbar-default .navbar-nav>.down-d>a:hover{
+        color:#fff
+    }
+   .navbar-nav .down-d .navhide{
+       background-color: #fff;
+   }
+   .navbar-nav .down-d .navhide li{
+       border:0;
+   }
+    .navbar-nav .down-d .navhide li a{
+        color:#0062BE;
+    }
+   .minnav{
+       background-color: #0062AC;
+   }
+}
+.container,.navbar-brand{
+    height:100%;
+}
+.cj-introduce{
+    width: 454px;
+    float: right;
+    margin-top:30px;
+}
+.cj-introduce img{
+
+}
+.cj-introduce span{
+    display: block;
+    float: right;
+    margin-right:15px;
+    color:#fff;
+    line-height: 22px;
+    font-size:16px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.foots{
+    background: url(../images/foot.jpg) no-repeat center;
+    background-size:100% 100%;
+}
+.footlog{
+    margin-top:60px;
+    margin-bottom: 60px;
+}
+.tel,.sharefoot{
+    margin-top: 34px;
+    margin-bottom: 21px;
+    color: #fff;
+    line-height: 30px;
+    font-size:18px;
+}
+.tel span{
+    margin-right: 20px;
+}
+
+.terrace span{
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    /*margin-right: 5px;*/
+}
+.terimg1{
+    background: url(../images/ping.png) no-repeat;
+    background-position: 0 0;
+}
+.terimg2{
+    background: url(../images/ping.png) no-repeat;
+    background-position: -49px 0;
+}
+.terimg3{
+    background: url(../images/ping.png) no-repeat;
+    background-position: -100px 0;
+}
+.terimg4{
+    background: url(../images/ping.png) no-repeat;
+    background-position: -150px 0;
+}
+.terimg5{
+    background: url(../images/ping.png) no-repeat;
+    background-position: -200px 0;
+}
+.terimg6{
+    background: url(../images/ping.png) no-repeat;
+    background-position: -250px 0;
+}
+.terimg7{
+    background: url(../images/ping.png) no-repeat;
+    background-position: -300px 0;
+}
+.terimg8{
+    background: url(../images/ping.png) no-repeat;
+    background-position: -351px 0;
+}
+.copyout{
+    background: #0061A4;
+    text-align: center;
+    color: #fff;
+    line-height: 38px;
+}
+.copy li{
+    list-style: none;
+    display: inline-block;
+}
+.copy li a{
+    color: #fff;
+}
+.copy li span{
+    margin-left:5px;
+    margin-right:5px;
+}
+.bannote{
+    width:100%;
+    background: rgba(20,30,41,0.8);
+    position:absolute;
+    left:0;
+    bottom:0;
+    line-height:20px;
+    color:#fff;
+}
+.carousel-control img{
+    width:54px;
+    height:106px;
+    position: absolute;
+    top:50%;
+    margin-top: -53px;
+}
+.carousel-control.right{
+    background: transparent;
+}
+.carousel-control.left{
+    background: transparent;
+}
+@media screen and (max-width:767px){
+    .carousel-control img{
+        display: none;
+    }
+    .bannote{
+         display: none;
+    }
+}
